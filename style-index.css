@@ -98,10 +98,14 @@ h2 {
   }
 
   #circle1 {
-    height: 2000px;
-    width: 2000px;
-    margin-top: -1750px;
-    margin-right: -1600px;
+    height: 100vh;
+    width: 100vh;
+    margin-top: -40vh;
+    margin-left: -40vh;
+  }
+
+  #summary-para {
+    text-align: center;
   }
 
   .container-summary {
@@ -113,6 +117,7 @@ h2 {
   #summary-image {
     margin-top: 20px;
     height: 40vh;
+    margin-top: 40px;
   }
 
   #summary-image > img {

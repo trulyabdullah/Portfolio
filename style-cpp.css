@@ -2,12 +2,14 @@ html {
   background-color: #03346e;
   /* ref ffd7c4 */
 }
+
 h1 {
   margin-top: 20px;
   text-align: center;
   font-size: 5rem;
   color: #f7efe5;
 }
+
 .container {
   margin-top: 15vh;
   display: flex;
