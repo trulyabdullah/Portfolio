@@ -15,10 +15,10 @@ a {
 }
 
 .socials {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
-.intro > p {
+.intro p {
   color: #dde6ed;
   font-size: 2rem;
 }
@@ -33,7 +33,7 @@ a {
     font-size: 2.5rem;
   }
 
-  .intro > p {
+  .intro p {
     font-size: 1.2rem;
   }
 
