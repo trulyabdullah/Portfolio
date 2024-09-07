@@ -3,21 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style-index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Abdullah Ansari's portfolio</h1>
-    <p>
-      Hi. My name is Abdullah Ansari <br />
-      I am currently learning these things :
-    </p>
-    <ul>
-      <li>C++</li>
-      <li>Web Development</li>
-    </ul>
-    <p>
-      This is my first ever live website. <br />
-      Its pretty basic and plain. <br />
-      I plan on making it better over time as I learn more.
-    </p>
+    <div class="background" id="circle1"></div>
+    <h1 class="heading">Abdullah Ansari's portfolio</h1>
+
+    <div class="container-summary">
+      <div id="summary-para">
+        <p>Hi.👋</p>
+        <p>My name is Abdullah Ansari.</p>
+        <p>I am currently an undergrad in CSE.</p>
+        <p>I am learning C++ and Web Development.</p>
+        <p>Click on the projects to know more about them.</p>
+        <p>
+          Click
+          <a href="./about.html"><span id="summary-span"> here </span></a> to
+          connect with me.
+        </p>
+      </div>
+      <div id="summary-image">
+        <img id="profile-pic" src="./assets/images/Profile-pic.jpg" />
+      </div>
+    </div>
+
+    <div class="projects-container">
+      <div class="projects" id="cpp">
+        <a href="./cpp.html"
+          ><img src="./assets/images/laptop-with-hand.jpg" />
+          <h2><span style="color: #eeeeee">C++</span></h2></a
+        >
+      </div>
+      <div class="projects" id="web-dev">
+        <a href="./web-dev.html">
+          <img src="./assets/images/laptop-on-bed-web.jpg" />
+          <h2><span style="color: #eeeeee">Web Development</span></h2></a
+        >
+      </div>
+    </div>
   </body>
 </html>

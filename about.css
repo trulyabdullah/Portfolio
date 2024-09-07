@@ -1,0 +1,43 @@
+html {
+  background-color: #2e073f;
+}
+h1 {
+  font-size: 4rem;
+  color: #d6bd98;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.about {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.socials {
+  margin-top: 100px;
+}
+
+.intro > p {
+  color: #dde6ed;
+  font-size: 2rem;
+}
+
+.socials p {
+  font-size: 2rem;
+  color: #f2f7a1;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .intro > p {
+    font-size: 1.2rem;
+  }
+
+  .socials p {
+    font-size: 1.2rem;
+  }
+}
