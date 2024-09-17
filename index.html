@@ -3,52 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style-index.css" />
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- hero-section -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap"
       rel="stylesheet"
     />
+
+    <!--feature-section-->
     <link
-      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="background" id="circle1"></div>
-    <h1 class="heading">Abdullah Ansari's portfolio</h1>
-    <div class="all-content">
-      <div class="container-summary">
-        <div id="summary-para">
-          <p>Hi.👋</p>
-          <p>My name is Abdullah Ansari.</p>
-          <p>I am currently an undergrad in CSE.</p>
-          <p>I am learning C++ and Web Development.</p>
-          <p>Click on the projects to know more about them.</p>
-          <p>
-            Click
-            <a href="./about.html"><span id="summary-span"> here </span></a> to
-            connect with me.
-          </p>
+    <!-- hero -->
+    <div class="hero hero-container">
+      <div class="hero hero-content hero-image">
+        <img src="./images/profile-pic.png" alt="" />
+      </div>
+      <div class="hero hero-content hero-intro">
+        <h1>Hi 👋</h1>
+        <h1>I am</h1>
+        <h1><span>Abdullah Ansari </span></h1>
+      </div>
+    </div>
+
+    <!-- feature -->
+
+    <div class="feature-line"></div>
+    <div class="feature-heading-start">
+      <p>Currently learning 👇</p>
+    </div>
+
+    <div class="feature feature-container">
+      <div class="feature feature-content feature-cpp">
+        <div class="feature feature-content-inside feature-cpp-final">
+          <img src="./images/cpp.jpg" />
         </div>
-        <div id="summary-image">
-          <img id="profile-pic" src="./assets/images/Profile-pic.jpg" />
+        <div class="feature feature-content-inside-text feature-cpp-final">
+          <div class="feature-cpp-heading feature-heading">
+            <p>C++</p>
+          </div>
+          <div class="feature-cpp-content feature-content-text">
+            <p>
+              I am currently practicing DSA in C++. <br />
+              You can check my progress on Twitter. <br />I post about my
+              progress there.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class="projects-container">
-        <div class="projects" id="cpp">
-          <a href="./cpp.html"
-            ><img src="./assets/images/laptop-with-hand.jpg" />
-            <h2><span style="color: #eeeeee">C++</span></h2></a
-          >
+      <div class="feature feature-content feature-webd-dev">
+        <div class="feature feature-content-inside feature-cpp-final">
+          <img src="./images/web-dev.jpg" />
         </div>
-        <div class="projects" id="web-dev">
-          <a href="./web-dev.html">
-            <img src="./assets/images/laptop-on-bed-web.jpg" />
-            <h2><span style="color: #eeeeee">Web Development</span></h2></a
-          >
+        <div class="feature feature-content-inside-text feature-web-dev-final">
+          <div class="feature-cpp-heading feature-heading">
+            <p>Web Dev</p>
+          </div>
+          <div class="feature-cpp-content feature-content-text">
+            <p>
+              I am currently learning Web Development. <br />
+              I have learnt HTML, CSS. <br />I will start JS now.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature feature-content feature-devops">
+        <div class="feature feature-content-inside feature-cpp-final">
+          <img src="./images/devops.jpg" />
+        </div>
+        <div class="feature feature-content-inside-text feature-cpp-final">
+          <div class="feature-cpp-heading feature-heading">
+            <p>DevOps</p>
+          </div>
+          <div class="feature-cpp-content feature-content-text">
+            <p>
+              I have started DevOps recently. <br />
+              I have learnt networkings concepts. <br />
+              I hope to make a lot of good open source contributions here.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="feature feature-content feature-open-source">
+        <div class="feature feature-content-inside feature-cpp-final">
+          <img src="./images/open-source.png" />
+        </div>
+        <div
+          class="feature feature-content-inside-text feature-open-source-final"
+        >
+          <div class="feature-cpp-heading feature-heading">
+            <p>Open Source</p>
+          </div>
+          <div class="feature-cpp-content feature-content-text">
+            <p>
+              I recently made my first contribution. <br />
+              It was in freeCodeCamp codebase. <br />You can check my GitHub
+              from Connect section.
+            </p>
+          </div>
         </div>
       </div>
     </div>
