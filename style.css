@@ -444,15 +444,16 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-content: center;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .feature-content {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 1.15fr;
-    margin-left: 50px;
+    margin-left: 3px;
+    margin-right: 3px;
   }
 
   .feature-content-inside {
