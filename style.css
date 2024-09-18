@@ -387,7 +387,7 @@
   .hero-container {
     display: flex;
     flex-direction: column;
-    height: 60vh;
+    height: 50vh;
     background-color: #222831;
     /* gap: 500px; */
     justify-content: center;
@@ -405,8 +405,11 @@
   }
 
   .hero-intro {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #dcd7c9;
   }
 
@@ -414,6 +417,10 @@
     font-family: "DM Serif Display", system-ui;
     font-weight: 400;
     font-style: normal;
+  }
+
+  .hero-name {
+    text-align: center;
   }
 
   .hero-intro span {
@@ -444,16 +451,17 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-content: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .feature-content {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1.15fr;
-    margin-left: 3px;
-    margin-right: 3px;
+    grid-template-rows: 2fr 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
   }
 
   .feature-content-inside {
@@ -482,7 +490,7 @@
     font-family: "DM Serif Display", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #092635;
   }
 
@@ -491,6 +499,89 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    font-size: 1rem;
+  }
+
+  /*about*/
+  .about-container {
+    margin-top: 0px;
+    height: 80vh;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .about {
+    width: 80%;
+  }
+
+  .contact-cat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vh;
+  }
+
+  .contact-cat img {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .contact-heading {
+    padding: 0px;
+    font-family: "DM Serif Display", system-ui;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1.3rem;
+    color: #393e46;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .contact-heading > .contact-heading-text > span {
+    color: #00adb5;
+  }
+
+  .about-line {
+    height: 35px;
+    width: 1.5px;
+    background-color: #393e46;
+  }
+
+  .contact-links-content a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+  }
+
+  .contact-links-struct {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px;
+    width: 80%;
+  }
+
+  .contact-links-content {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    margin: 5px;
   }
 }
